@@ -1,12 +1,4 @@
 <?php
-/*
-	MAIL BBTAG
-	-------------
-	Returns a parsed email address
-
-	By Michael Lat
-	http://www.latova.com/
-*/
 
 class bb_mail
 {
@@ -16,7 +8,7 @@ class bb_mail
 		{
 			$this->error = true;
 		}
-		
+
 		return $value;
 	}
 }

@@ -288,8 +288,8 @@ INSERT INTO `lat_kernel_bbtag` (`id`, `tag`, `file`, `hotkey`, `opt`, `no_embed`
 (4, 'color', 'color', '', 1, 0, 0, 103, '<span <!-- optn -->><!-- data --></span>', 'Blue|blue|color:blue\r\nRed|red|color:red\r\nPurple|purple|color:purple\r\nGray|gray|color:gray\r\nGreen|green|color:green\r\nOrange|orange|color:orange', 0, '', '', 'red', 0, 0),
 (5, 'font', 'letters_numbers_spaces', '', 1, 0, 0, 104, '<span style="font-family: <!-- optn -->;"><!-- data --></span>', 'Arial|arial|font-family: arial; font-size: 10px;\r\nComic Sans|Comic Sans MS|font-family: Comic Sans MS; font-size: 10px;\r\nCourier|Courier New|font-family: Courier New; font-size: 10px;\r\nLucida|Lucida Console|font-family: Lucida Console; font-size: 10px;\r\nTahoma|Tahoma|font-family: Tahoma; font-size: 10px;\r\nTimes Roman|Times New Roman|font-family: Times New Roman; font-size: 10px;', 0, '', '', 'Lucida Console', 0, 0),
 (6, 'size', 'size', '', 1, 0, 0, 105, '<span style="font-size: <!-- optn -->px;"><!-- data --></span>', 'Small|8\r\nLarge|15\r\nLarger|19\r\nLargest|23', 0, '', '', '15', 0, 0),
-(7, 'img', 'image', 'm', 0, 0, 0, 200, '<div style="display: none" id="div_<!-- NEW INT -->" class="big_img"><script type="text/javascript">img_type[<!-- INT -->]=<!-- type -->;</script><img id="img_<!-- INT -->" src="<!-- data -->" alt="img" /><div class="img_zoom" id="zoom_<!-- INT -->"><a href="<!-- data -->" target="_blank"><img src="<!-- IMAGE -->zoom.png" alt="+" />&nbsp;<lang:enlarge></a></div></div><noscript><img src="<!-- data -->" alt="img" /></noscript>', '', 1, 'http://www.latova.com/image.png', '', '', 1, 0),
-(8, 'url', 'url', 'l', 2, 0, 0, 201, '', '', 0, 'http://www.latova.com', '', 'http://www.latova.com', 0, 0),
+(7, 'img', 'image', 'm', 0, 0, 0, 200, '<div style="display: none" id="div_<!-- NEW INT -->" class="big_img"><script type="text/javascript">img_type[<!-- INT -->]=<!-- type -->;</script><img id="img_<!-- INT -->" src="<!-- data -->" alt="img" /><div class="img_zoom" id="zoom_<!-- INT -->"><a href="<!-- data -->" target="_blank"><img src="<!-- IMAGE -->zoom.png" alt="+" />&nbsp;<lang:enlarge></a></div></div><noscript><img src="<!-- data -->" alt="img" /></noscript>', '', 1, 'http://www.mikelat.com/image.png', '', '', 1, 0),
+(8, 'url', 'url', 'l', 2, 0, 0, 201, '', '', 0, 'http://www.mikelat.com', '', 'http://www.mikelat.com', 0, 0),
 (9, 'quote', 'quote', 'q', 2, 1, 1, 203, '<div class="bdr_bb">\r\n	<div class="quote">\r\n		<!-- optn -->\r\n	</div>\r\n	<div class="quote_text">\r\n		<!-- data -->\r\n	</div>\r\n</div>', '', 0, '', '', '', 0, 0),
 (10, 'code', 'code', 'c', 0, 1, 0, 204, '<div class="bdr_bb">\r\n	<div class="code">\r\n		<lang:code>\r\n	</div>\r\n	<div class="code_text">\r\n		<!-- data -->\r\n	</div>\r\n</div>', '', 1, '', '', '', 0, 0),
 (11, 'codebox', 'codebox', '', 0, 1, 0, 205, '<div class="bdr_bb">\r\n	<div class="code">\r\n		<lang:codebox>\r\n	</div>\r\n	<textarea class="codebox_text" rows="10" cols="50"><!-- data --></textarea>\r\n</div>', '', 1, '', '', '', 0, 0),
@@ -440,8 +440,8 @@ CREATE TABLE IF NOT EXISTS `lat_kernel_module` (
 --
 
 INSERT INTO `lat_kernel_module` (`id`, `name`, `author`, `website_name`, `url_website`, `url_contact`, `url_download`, `url_version`, `version`, `mod_id`) VALUES
-(1, 'Latova Kernel', 'Michael Lat', 'Latova', 'http://www.latova.com', '', '', 'http://www.latova.com/version.php', '0.3.1', 1),
-(2, 'Latova Forum', 'Michael Lat', 'Latova', 'http://www.latova.com', '', '', 'http://www.latova.com/version.php', '0.3.1', 2);
+(1, 'Latova Kernel', 'Michael Lat', 'Latova', 'http://www.mikelat.com', '', '', 'http://www.mikelat.com/version.php', '0.3.1', 1),
+(2, 'Latova Forum', 'Michael Lat', 'Latova', 'http://www.mikelat.com', '', '', 'http://www.mikelat.com/version.php', '0.3.1', 2);
 
 -- --------------------------------------------------------
 

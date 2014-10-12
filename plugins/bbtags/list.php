@@ -1,12 +1,5 @@
 <?php
-/*
-	LIST BBTAG
-	-------------
-	Makes a list... checks it twice...
 
-	By Michael Lat
-	http://www.latova.com/
-*/
 class bb_list
 {
 	function initialize($value, $option="", $argument=array())
@@ -18,7 +11,7 @@ class bb_list
 			$value = preg_replace("{\[\*\]}is", "</li><li>", $value);
 			$value = preg_replace("{<ol style=\"(.+?)\">.+?</li>}is", "<ol style=\"\\1\">", $value);
 		}
-		
+
 		switch($option)
 		{
 			case "1":

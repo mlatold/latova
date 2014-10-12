@@ -1,12 +1,4 @@
 <?php
-/*
-	CODEBOX BBTAG
-	-------------
-	Readies content for insertion into a codebox
-
-	By Michael Lat
-	http://www.latova.com/
-*/
 
 class bb_codebox
 {

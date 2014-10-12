@@ -1,12 +1,4 @@
 <?php
-/*
-	IMG BBTAG
-	-------------
-	Gets back a valid picture URL
-
-	By Michael Lat
-	http://www.latova.com/
-*/
 
 class bb_image
 {

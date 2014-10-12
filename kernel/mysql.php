@@ -313,7 +313,7 @@ class kernel_mysql
                     $sys_error .= "\n\nQuery: ".htmlspecialchars($construct)."\n\nError Details: ".mysql_error();
                 }
 
-                $this->lat->core->panic($sys_error, "1. If you are coding a module for Latova, check your SQL syntax.\n2. If you have any new modifications installed, you may want to consider disabling them to determine if there is any incompatibility.\n3. If this query appears to be a glitch from a faulty data input that resides in a latova module or kernel, report it to http://www.latova.com so it can be repaired in a future update.\n4. Try to 'repair' the tables in your database. Ask your web hosting provider if you do not understand the process of doing this.\n5. Contact your web hosting provider to see if there is a problem with the server.");
+                $this->lat->core->panic($sys_error, "1. If you are coding a module for Latova, check your SQL syntax.\n2. If you have any new modifications installed, you may want to consider disabling them to determine if there is any incompatibility.\n3. If this query appears to be a glitch from a faulty data input that resides in a latova module or kernel, report it to https://github.com/mikelat/latova so it can be repaired in a future update.\n4. Try to 'repair' the tables in your database. Ask your web hosting provider if you do not understand the process of doing this.\n5. Contact your web hosting provider to see if there is a problem with the server.");
             }
             else
             {
@@ -529,7 +529,7 @@ class kernel_mysql
                         $sys_error .= "\n\nQuery: ".htmlspecialchars($query)."\n\nError Details: ".mysql_error();
                     }
 
-                    $this->lat->core->panic($sys_error, "1. If you are coding a module for Latova, check your SQL syntax.\n2. If you have any new modifications installed, you may want to consider disabling them to determine if there is any incompatibility.\n3. If this query appears to be a glitch from a faulty data input that resides in a latova module or kernel, report it to http://www.latova.com so it can be repaired in a future update.\n4. Try to 'repair' the tables in your database. Ask your web hosting provider if you do not understand the process of doing this.\n5. Contact your web hosting provider to see if there is a problem with the server.");
+                    $this->lat->core->panic($sys_error, "1. If you are coding a module for Latova, check your SQL syntax.\n2. If you have any new modifications installed, you may want to consider disabling them to determine if there is any incompatibility.\n3. If this query appears to be a glitch from a faulty data input that resides in a latova module or kernel, report it to https://github.com/mikelat/latova so it can be repaired in a future update.\n4. Try to 'repair' the tables in your database. Ask your web hosting provider if you do not understand the process of doing this.\n5. Contact your web hosting provider to see if there is a problem with the server.");
                 }
             }
         }

@@ -1,12 +1,4 @@
 <?php
-/*
-	FONT SIZE BBTAG
-	-------------
-	Makes sure that the font bbtag isn't to large or small, and is clean
-
-	By Michael Lat
-	http://www.latova.com/
-*/
 
 class bb_size
 {
@@ -21,7 +13,7 @@ class bb_size
 		{
 			$option = 30;
 		}
-		
+
 		return array($value, $option);
 	}
 }

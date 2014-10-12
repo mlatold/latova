@@ -1,12 +1,4 @@
 <?php
-/*
-	URL BBTAG
-	-------------
-	Returns a parsed url (with url name)
-
-	By Michael Lat
-	http://www.latova.com/
-*/
 
 class bb_url
 {

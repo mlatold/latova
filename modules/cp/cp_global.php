@@ -976,7 +976,7 @@ LAT;
                                              "title" => "Website",
                                              "value" => $this->lat->input['site'],
                                              "field" => array("maxlength" => 50),
-        									 "help"  => "The domain where the content comes from. Example: <i>latova.com</i>"));
+        									 "help"  => "The domain where the content comes from. Example: <i>mikelat.com</i>"));
 
         $this->lat->output .= <<<LAT
        		<div id="media2" style="{$hide2}">
@@ -987,7 +987,7 @@ LAT;
                                              "title" => "Variable",
                                              "value" => $this->lat->input['var'],
                                              "field" => array("maxlength" => 255),
-        									 "help"  => "Variable in the URL to grab data from. Example: <i>v</i> would take the data out of latova.com?v=DATA"));
+        									 "help"  => "Variable in the URL to grab data from. Example: <i>v</i> would take the data out of mikelat.com?v=DATA"));
 
         $this->lat->output .= <<<LAT
        		</div>

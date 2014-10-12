@@ -337,7 +337,7 @@ class kernel_show
 			// I've worked thousands of hours on this and give it out for free!
 			// Please support the open source movement and this software!
 
-			$output = str_replace("<!-- COPYRIGHT -->", "<a href=\"http://www.latova.com\" target=\"_blank\">Powered by Latova &copy; ".date("Y")." Michael Lat</a>", $output);
+			$output = str_replace("<!-- COPYRIGHT -->", "<a href=\"https://github.com/mikelat/latova\" target=\"_blank\">Powered by Latova &copy; ".date("Y")." Michael Lat</a>", $output);
 
 
 			if(DEBUG)

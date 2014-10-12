@@ -1,12 +1,4 @@
 <?php
-/*
-	CODE BBTAG
-	-------------
-	Readies content for code
-
-	By Michael Lat
-	http://www.latova.com/
-*/
 
 class bb_code
 {
