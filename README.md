@@ -1,4 +1,4 @@
-Latova
+# Latova 0.3.2
 ======
 
 A fully featured forum/cms software written in PHP. Includes:
@@ -16,3 +16,8 @@ A fully featured forum/cms software written in PHP. Includes:
 * Statistics
 * Security features such as captchas, brute force prevention, etc.
 
+### installing
+
+Drop the files into a folder, use the installation script to create a database and throw config.php into the main folder and edit accordingly.
+
+Then, edit the DB in table lat_config with the row named "script_url", rename it to your forum url with a trailing slash. Edit index.php and set the DEBUG constant to 1, visit in your browser http://www.yourforumurl.com/index.php?pg=forum&do=cache to flush the forum cache. Then set the DEBUG constant back to 0 and your forum is now setup and good to go!
