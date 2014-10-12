@@ -1,0 +1,120 @@
+Version 0.3.2
+=============
+- Ported to PHP 5
+
+Version 0.3.1
+=============
+- jQuery has been packaged with Latova. This is mostly javascript effects, some of which are already being used as of 0.3.1.
+- Added autoparse manager. Gives you the ability to automatically convert links of media and images to being viewable.
+- Added BBtag manager. It allows you to change the default latova bbtags and make your own.
+- Added quick forum navigation to the bottom of forum related pages.
+- Media converted from autoparsing no longer automatically loads. It gives you a funky "view it now" option, or the ability to open it in a new window.
+- All media updated with its updated embedding code, making it larger. Youtubes player is now really large, and plays HD video when possible.
+- Added word filters. Filters with no "replace with" text will repeat the Word Filter Character (under general) for the length of the word.
+- Added the ability to alter forums while on the edit page of a forum profile.
+- Redid forum list generation (for both checkboxes and dropdowns), its much more programmer friendly.
+- Session IDs placed in URLs no longer always reset on page loads.
+- Forum descriptions are no longer double escaped.
+- Latova's database formatting has been altered to be more compatible with stricter SQL configurations.
+- Fixed javascript image resizing, which got broken in a previous update.
+
+Version 0.3.0
+=============
+- Added Latova Control Panel Alpha, where it is now possible to administrate certain parts of the site.
+    Current features:
+    > Version checking
+    > Setting editing
+    > Forum editing
+    > Forum profile editing (permissions)
+    > Reload cache
+    > Reparse content
+- Added permisssion escalation
+- You can now have a captcha without GD library, although it's not too effective (better than nothing). I recommend you install GD library or use recaptcha.
+- Topic links have been altered. Clicking a topic title on its own will bring you to the most recent unread topic, or the last post.
+- Latova cache loader has been optimized.
+- The "DEF_PAGE" and "SHORT_PG" config variables have been removed from config.php, remove them manually.
+- Running a cache query and another query simular to it would sometimes cause conflicts. This is no longer the case.
+- Session length increased to 1 hour by default.
+- Added ability to edit post icon when modifying first reply.
+- Updating the cache now updates it in realtime instead of requiring you to refresh the page.
+- Fixed bug of hidden/deleted posts showing up in reply form.
+- Fixed a bug where you couldn't put a post icon on topics.
+
+Version 0.2.2
+=============
+- Several new moderation features.
+- Deleting moderation feature no longer permanently removes content, it instead hides content.
+- Purging moderation feature added to permanently remove content.
+- Post and topic moderation are now on seperate sides of the page.
+- Added the ability to hover over names in online list and see what the user is doing.
+- Modified handling of no posts being viewable in a topic.
+- Fixed various bugs.
+
+Version 0.2.1
+=============
+- Added the ability for users to disable automatic image resizing.
+- Added the ability to add content statistics in modules.
+- Made delete buttons look all cool and red.
+- Made message more clear when incorrect email was entered when recovering account.
+- Fixed several skin rendering issues. Particularly related to Internet Explorer (no surprise).
+- Fixed a bug on topic lists where page count on topics would be off by 1.
+- Fixed a bug where searches would not return correct results with multipule terms.
+- Fixed a bug where you could not search for content from a individual user.
+- Fixed a bug where an individual forum could not be marked as read.
+
+Version 0.2.0
+=============
+New Features
+-------------
+- It is now far more easier to add/remove your own user settings entries.
+- Search has been added for posts and topics (users still coming).
+- Autoparsing has been added.
+- Youtube tag has been removed (replaced by autoparsing).
+- Added a seperate spider count to the online list.
+- Changed quicksearch clear handling.
+- You can set the PM storage space to infinity now.
+- Latova will now hide PHP errors from non-admins when debug mode is off.
+- Lasts posts shown when making a new reply now have a max-height attribute.
+- The smilies popup now looks better.
+- Posting limits have been added to the left side of all posting forms.
+- Users can now change their names.
+- You can see name change history in peoples profiles.
+- Modules now have a flag for allowing latova to do system tasks.
+- Character limits are now within bbtag profiles.
+- Character restrictions on usernames have been removed.
+
+
+Bug Fixes
+-------------
+- Kernel panic pages are now W3 compliant.
+- Some of the kernel panic pages are slightly more helpful now.
+- Fixed online users miscount.
+- Fixed urls not parsing in posts/content.
+- Reworked some of the database indexes for faster queries.
+
+Version 0.1.2
+=============
+- Added forum category links.
+- Reworked list bbtag, it is far more flexible and bug-free now.
+- Fixed a bug where editing a topic in a subforum would incorrectly display the correct last posting details on the root forum.
+- Fixed a bug where topics would be out of order in topic list.
+- Fixed a bug where active users would be inaccurate.
+
+Version 0.1.1
+=============
+- Reworked BBtag file handling.
+- Reworked BBtags.
+- Debug mode is now set to "off" by default.
+- Smoother closed icon (thanks Michael Martinello).
+- The PHP tag has been removed, instead the code tag will highlight php code automatically.
+- Fixed captcha bug where an error would always return.
+- Fixed private message deleting and handling.
+- Fixed a bug where the private message pop up wouldn't close.
+- Fixed miscellaneous language issues.
+- Fixed the "disappearing names" issue.
+- Fixed an issue when editing titles, changes may not appear on forum index.
+
+
+Version 0.1.0
+=============
+- Initial Release.
