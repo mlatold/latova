@@ -28,7 +28,7 @@ Version 0.3.0
     > Forum profile editing (permissions)
     > Reload cache
     > Reparse content
-- Added permisssion escalation
+- Added permission escalation
 - You can now have a captcha without GD library, although it's not too effective (better than nothing). I recommend you install GD library or use recaptcha.
 - Topic links have been altered. Clicking a topic title on its own will bring you to the most recent unread topic, or the last post.
 - Latova cache loader has been optimized.
@@ -45,7 +45,7 @@ Version 0.2.2
 - Several new moderation features.
 - Deleting moderation feature no longer permanently removes content, it instead hides content.
 - Purging moderation feature added to permanently remove content.
-- Post and topic moderation are now on seperate sides of the page.
+- Post and topic moderation are now on separate sides of the page.
 - Added the ability to hover over names in online list and see what the user is doing.
 - Modified handling of no posts being viewable in a topic.
 - Fixed various bugs.
@@ -58,7 +58,7 @@ Version 0.2.1
 - Made message more clear when incorrect email was entered when recovering account.
 - Fixed several skin rendering issues. Particularly related to Internet Explorer (no surprise).
 - Fixed a bug on topic lists where page count on topics would be off by 1.
-- Fixed a bug where searches would not return correct results with multipule terms.
+- Fixed a bug where searches would not return correct results with multiple terms.
 - Fixed a bug where you could not search for content from a individual user.
 - Fixed a bug where an individual forum could not be marked as read.
 
@@ -70,7 +70,7 @@ New Features
 - Search has been added for posts and topics (users still coming).
 - Autoparsing has been added.
 - Youtube tag has been removed (replaced by autoparsing).
-- Added a seperate spider count to the online list.
+- Added a separate spider count to the online list.
 - Changed quicksearch clear handling.
 - You can set the PM storage space to infinity now.
 - Latova will now hide PHP errors from non-admins when debug mode is off.

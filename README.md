@@ -3,9 +3,9 @@
 
 A fully featured forum/cms software written in PHP. Includes:
 
-* Forums with infinate recursive subforums
+* Forums with infinite recursive subforums
 * A control panel backend for administrative management
-* Registering users, each with independant groups and permissions
+* Registering users, each with independent groups and permissions
 * Forum permission sets
 * Custom BBcodes and word filters
 * Extensive Moderation tools (deleting, editing, hiding, stickies, announcements, splitting, merging, etc)
@@ -16,7 +16,7 @@ A fully featured forum/cms software written in PHP. Includes:
 * Statistics
 * Security features such as captchas, brute force prevention, etc.
 
-### installing
+### Installing
 
 Drop the files into a folder, use the installation script to create a database and throw config.php into the main folder and edit accordingly.
 
